@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no minimum-scale=1.0 maximum-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Jurij Bojcheniuk - Tłumaczenia w Poznaniu z języka ukraińskiego i rosyjskiego</title>
+    <meta name="description" content="Zapraszamy do skorzystania usług tłumacza przysięgłego Jurija Bojechniuka w Poznania. Możliwość skorzystania z tłumaczeń ustnych poza Poznaniem." />
+    <!--    gives browser signal, that site has more than one language to choose. more info -> https://support.google.com/webmasters/answer/189077?hl=pl-->
+    <!--    ukrainian lang iso 639-1 standard -->
+    <!--    <link rel="alternate" hreflang="uk" href="https://bojcheniuk.eu/uk/index.html">-->
+    <!--    russian lang iso 639-1 standard-->
+    <!--   <link rel="alternate" hreflang="ru" href="https://bojcheniuk.eu/ru/index.html">-->
+    <!--    additional fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Caveat:400,700|Courgette|Dancing+Script:400,700|Jua|Lobster&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Bungee+Inline|Caveat:400,700|Courgette|Dancing+Script:400,700|Elsie|Gruppo|Hammersmith+One|Jua|Lobster|Marck+Script|Nothing+You+Could+Do&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    <!--     CSS library - animate.css - on MIT LICENSE - https://github.com/daneden/animate.css/blob/master/LICENSE , author and source here:Daniel Eden, https://github.com/daneden/animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!--      favicon - more about - https://en.wikipedia.org/wiki/Favicon-->
+    <link rel="Shortcut icon" href="img/icon.png" />
+    <!--    FONT AWESOME ICONS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--   alerts on start - which you can close - RODO and cookies privacy-->
+    <div class="container">
+
+        <div class="alert  alert-dismissible fade show" role="alert">
+            <p><a href="sites/regulamin.html" class="alert-link" rel="nofollow" target="_blank"><strong>Dbamy o twoje bezpieczeństwo.</strong> W związku ze zmianiami w prawie, prosimy o zapoznanie się z polityką prywatności RODO, w której informujemy o zbieranych danych, celach przetwarzania, czy związanych z tym prawach użytkownika. Wiecej informacji tutaj</a>.</p>
+            <div class="container d-flex justify-content-end">
+                <button type="button" class="btn btn-info " data-dismiss="alert" aria-label="Close">Zgadzam się</button>
+                <button type="button" class="btn btn-light ml-2" data-dismiss="alert" aria-label="Close">Nie teraz</button>
+            </div>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+
+        <div class="alert alert-dismissible fade show" role="alert">
+            <p><a href="sites/cookies.html" class="alert-link" rel="nofollow" target="_blank">
+                    <strong>Strona korzysta z plików typu 'cookies'</strong>, aby świadczyć usługi na najwyższym poziomie. Dalsze korzystanie ze strony oznacza, że zgadzasz się na ich użycie. Więcej informacji o plikach znajdziesz tutaj</a>.</p>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+
+    </div>
+    <!--    navbar start-->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top d-flex justify-content-center ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style=""></span> </button>
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <ul class="navbar-nav  ml-auto mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fas fa-home"></i>Strona Główna<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#offer"><i class="fas fa-money-bill-wave-alt"></i>Oferta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricelist"><i class="far fa-credit-card"></i>Cennik</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reference"><i class="fab fa-accusoft"></i>Referencje</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact"><i class="fas fa-door-open"></i>Kontakt</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fab fa-angellist"></i>
+                        Blog
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="sites/jakie-tlumaczenia-wykonujemy.html">Rodzaje tłumaczeń</a>
+                        <a class="dropdown-item" href="sites/slowniczek-ukrainsko-polski.html">Słowniczek polsko - ukraiński</a>
+                        <a class="dropdown-item" href="sites/nauka-jezyka-ukrainskiego.html">Jak efektywnie uczyć się języka ukraińskiego</a>
+                        <a class="dropdown-item" href="sites/przyczyny-emigracji-ukraincow-do-polski.html">Przyczyny emigracji Ukraińców do Polski</a>
+                        <a class="dropdown-item" href="sites/fakty-o-ukrainie.html">12 ciekawych faktów o Ukrainie</a>
+                        <a class="dropdown-item" href="sites/co-przywiezc-z-ukrainy.html">Co przywieźć z podróży po Ukrainie</a>
+                        <a class="dropdown-item" href="sites/co-sprobowac-na-ukrainie.html">Co spróbować podczas pobytu na Ukrainie</a>
+                        <a class="dropdown-item" href="sites/alfabet-ukrainski.html#charakterystyka-jezyka">Czym charakteryzuje się język ukraiński</a>
+                        <a class="dropdown-item" href="sites/alfabet-ukrainski.html#roznice-jezyka">Czym różni się język ukraiński od rosyjskiego</a>
+                        <a class="dropdown-item" href="sites/tanie-loty-na-i-z-ukrainy.html">Najlepsze sposoby na podróż na Ukrainę</a>
+                        <a class="dropdown-item" href="sites/slowniczek-ukrainsko-polski.html#zwroty-jezykowe">Podobne zwroty w języku polskim i ukraińskim</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--navbar end-->
+    <!--jumbotron start-->
+    <div class="jumbotron jumbotron-fluid bg-info text-white text-center">
+        <div class="container">
+            <h1 class="display-1 animated zoomInDown delay-6s">Jurij Bojcheniuk</h1>
+            <p class="lead animated fadeInRightBig rotateInUpLeft">Tłumacz przysięgły języka ukraińskiego</p>
+        </div>
+    </div>
+    <!--jumbotron end-->
+
+
+    <!-- cards start - offer -->
+
+    <div class="container translations-cards">
+        <h2 class="display-4 py-5  text-center"><a name="offer">Oferta firmy</a></h2>
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/waluta_ukrainy_tlumacz_przysiegly.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">Tłumaczenia przysięgłe ukraińskiego</h3>
+                        <p class="card-text">W naszej ofercie znajdą Państwo tłumaczenia przysięgłe na język ukraiński. Czym musi się legitymować tłumacz przysięgły, do jakich tłumaczeń potrzeba jest pieczęć tłumacza przysiegłego?</p>
+                        <a href="sites/jakie-tlumaczenia-wykonujemy.html#tlumaczenia-przysiegle" class="btn">Dowiedz się więcej</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/flaga_ukrainy_tlumacz_przysiegly.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">Tłumaczenia zwykłe ukraińskiego</h3>
+                        <p class="card-text">Jakie tłumaczenia można wykonywać bez poświadczenia tłumacza przysięgłego? Czy cena tlumaczeń różni się znacząco od tłumaczeń przysięgłych?</p>
+                        <a href="sites/jakie-tlumaczenia-wykonujemy.html#tlumaczenia-zwykle" class="btn">Dowiedz się więcej</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/lwow_tlumaczenia_przysiegle.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">Tłumaczenia zwykłe rosyjskiego</h3>
+                        <p class="card-text">Oprócz tłumaczeń na język ukraiński, specjalizujemy się również w języku rosyjskim, tłumaczenia wykonujemy stacjonarnie w Poznaniu, jak i zdalnie drogą internetową.</p>
+                        <a href="sites/jakie-tlumaczenia-wykonujemy.html#tlumaczenia-zwykle" class="btn">Dowiedz się więcej</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/tlumacz_ukrainski_kontakt.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">Tłumaczenia ustne języka ukraińskiego i rosyjskiego</h3>
+                        <p class="card-text">Oprócz tłumaczeń pisemnych, tłumaczymy ustnie pomiędzy językami polskim, rosyjskim i ukraińskim. Tłumaczenia ustne wykonywane przede wszystkim w Poznaniu, jednak prowadzimy usługi równięż na terenie całej Polski.</p>
+                        <a href="sites/jakie-tlumaczenia-wykonujemy.html#tlumaczenia-ustne" class="btn">Dowiedz się więcej</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--       card end (offer)-->
+    <!--price list start-->
+
+    <div class="container pricelist">
+        <h2 class="display-4 py-5  text-center"><a name="pricelist">Cennik usług</a></h2>
+        <div id="accordion pricelist">
+            <div class="card">
+                <div class="card-header accordion-custom" id="headingOne">
+                    <h3 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Tłumaczenia zwykłe</button>
+                    </h3>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Tryb standardowy</th>
+                                    <th scope="col">Tryb ekspresowy</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Na język ukraiński / rosyjski</th>
+                                    <td>od 30 PLN / str. (1800zzs <span class="badge badge-pill badge-warning">1</span> ) <span class="badge badge-pill badge-info">2</span></td>
+                                    <td>od 35 PLN / str. (1800zzs <span class="badge badge-pill badge-warning">1</span> ) <span class="badge badge-pill badge-info">2</span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Na język polski (z ukraińskiego / rosyjskiego)</th>
+                                    <td>od 25 PLN / str. (1800zzs <span class="badge badge-pill badge-warning">1</span> ) <span class="badge badge-pill badge-info">2</span></td>
+                                    <td>od 30 PLN / str. (1800zzs <span class="badge badge-pill badge-warning">1</span> ) <span class="badge badge-pill badge-info">2</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-1">
+                                            <span class="badge badge-warning badge-pill">1</span>
+                                        </div>
+                                        <div class="col-sm-11">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">Znaki ze spacjami.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row ">
+                                        <div class=" col-sm-1 ">
+                                            <span class="badge badge-info badge-pill">2</span>
+                                        </div>
+                                        <div class=" col-sm-11">
+                                            <ul class="list-group">
+
+                                                <li class="list-group-item">W przypadku tłumaczeń specjalistycznych należy doliczyć 25% stawki.</li>
+                                                <li class="list-group-item">Za wykonane tłumaczenia wystawiamy faktury. Firma nie jest płatnikiem VAT.</li>
+                                                <li class="list-group-item">Cennik tłumaczeń ma charakter orientacyjny. Ostateczna cena, zostanie obliczona na podstawie konkretnego zlecenia.</li>
+                                                <li class="list-group-item">Wszystkie ceny są cenami brutto</li>
+                                                <li class="list-group-item">Cena podana w cenniku odnosi się do strony przeliczeniowej, mającej określoną ilosc znaków. W przypadku tłumaczeń zwykłych, na stronę przypada 1800 znaków ze spacjami (skrót: zzs). <strong>Dlatego też przy kalkulacji tłumaczeń prosimy nie sugerować się ilością stron w państwa dokumentacji.</strong></li>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h3 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Tłumaczenia przysięgłe</button>
+                    </h3>
+                </div>
+
+                <div id="collapseTwo" class="collapse " aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Tryb standardowy</th>
+                                    <th scope="col">Tryb ekspresowy</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Na język rosyjski</th>
+                                    <td>od 30 PLN / str. (1125zzs <span class="badge badge-pill badge-warning">1</span> ) <span class="badge badge-pill badge-info">2</span></td>
+                                    <td>od 35 PLN / str. (1125zzs <span class="badge badge-pill badge-warning">1</span> ) <span class="badge badge-pill badge-info">2</span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Na język polski (z ukraińskiego / rosyjskiego)</th>
+                                    <td>od 25 PLN / str. (1125zzs <span class="badge badge-pill badge-warning">1</span> ) <span class="badge badge-pill badge-info">2</span></td>
+                                    <td>od 30 PLN / str. (1125zzs <span class="badge badge-pill badge-warning">1</span> ) <span class="badge badge-pill badge-info">2</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-1">
+                                            <span class="badge badge-warning badge-pill">1</span>
+                                        </div>
+                                        <div class="col-sm-11">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">Znaki ze spacjami.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row ">
+                                        <div class=" col-sm-1 ">
+                                            <span class="badge badge-info badge-pill">2</span>
+                                        </div>
+                                        <div class=" col-sm-11">
+                                            <ul class="list-group">
+
+                                                <li class="list-group-item">W przypadku tłumaczeń specjalistycznych należy doliczyć 25% stawki.</li>
+                                                <li class="list-group-item">Za wykonane tłumaczenia wystawiamy faktury. Firma nie jest płatnikiem VAT.</li>
+                                                <li class="list-group-item">Cennik tłumaczeń ma charakter orientacyjny. Ostateczna cena, zostanie obliczona na podstawie konkretnego zlecenia.</li>
+                                                <li class="list-group-item">Wszystkie ceny są cenami brutto</li>
+                                                <li class="list-group-item">Cena podana w cenniku odnosi się do strony przeliczeniowej, mającej określoną ilosc znaków. W przypadku tłumaczeń zwykłych, na stronę przypada 1800 znaków ze spacjami (skrót: zzs). <strong>Dlatego też przy kalkulacji tłumaczeń prosimy nie sugerować się ilością stron w państwa dokumentacji.</strong></li>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h3 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Tłumaczenia ustne</button>
+                    </h3>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <!--        tables-->
+                        <div class="container">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col"></th>
+                                        <th scope="col">Tryb standardowy</th>
+                                        <th scope="col">Tryb ekspresowy</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Na język ukraiński/ rosyjski</th>
+                                        <td>od 100 PLN <span class="badge badge-pill badge-warning align-top">1</span></td>
+                                        <td>od 150 PLN <span class="badge badge-pill badge-warning">1</span></td>
+
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Z języka ukraińskiego / rosyjskiego na język polski</th>
+                                        <td>od 100 PLN <span class="badge badge-pill badge-warning">1</span></td>
+                                        <td>od 150 PLN <span class="badge badge-pill badge-warning">1</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <div class="container">
+
+                                        <div class="row ">
+                                            <div class=" col-sm-1 ">
+                                                <span class="badge badge-warning badge-pill">1</span>
+                                            </div>
+                                            <div class=" col-sm-11">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item">Minimum dwugodzinny blok tłumaczeń</li>
+                                                    <li class="list-group-item">Każda rozpoczęta godzina kosztuje 100 PLN</li>
+                                                    <li class="list-group-item">W przypadku tłumaczeń specjalistycznych należy doliczyć 25% stawki</li>
+                                                    <li class="list-group-item">Za wykonane tłumaczenia wystawiamy faktury. Firma nie jest płatnikiem VAT.</li>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--price list end-->
+    <!-- NAVS - BLOG TOPICS ------------------------------------------------------------------ -->
+    <div class="container blog-topics">
+        <h2 class="display-4 py-5  text-center"><a name="blog-topics">Więcej o języku ukraińskim i rosyjskim</a></h2>
+
+        <div class="card-columns">
+            <div class="card p-3 text-right">
+                <a href="sites/fakty-o-ukrainie.html">
+                    <h3 class="card-title"><a href="sites/fakty-o-ukrainie.html">12 faktów o Ukrainie</a></h3>
+                    <blockquote class="blockquote mb-0">
+                        <p>Zastanawiasz się z czego słynie ten największy w Europie kraj? Zobacz charakterystyczne cechy, które idealnie opisują ten wspaniały kraj.</p>
+                        <small class="text-muted">
+                            Czytaj więcej
+                        </small>
+                    </blockquote>
+                </a>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="img/tlumacz_ukrainskiego_kijow.jpg" alt="kijów katedra, nauka ukrańskiego">
+                <div class="card-body">
+                    <a href="sites/nauka-jezyka-ukrainskiego.html">
+                        <h3 class="card-title">Jak najprościej nauczyć się ukraińskiego?</h3>
+                        <p class="card-text"> Każdy ma swój sposób. Ty sprawdź nasze pomysły na efektywną naukę języka ukraińskiego.
+                        </p>
+                        <small class="text-muted">
+                            Czytaj więcej
+                        </small>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card p-3">
+                <a href="sites/co-przywiezc-z-ukrainy.html">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <p>Wakacje na Ukrainie to wspaniały pomysł, zobaczcie co warto przywieźć z wyprawy od naszego wschodniego sąsiada</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                Czytaj więcej
+                            </small>
+                        </footer>
+                    </blockquote>
+                </a>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="img/wspolny_slowianski_rdzen.jpg" alt="wspólny słowiański rdzeń językowy">
+                <div class="card-body"><a href="sites/alfabet-ukrainski.html#roznice-jezyka">
+                        <h3 class="card-title">Czym różni się język ukraiński od rosyjskiego</h3>
+                        <p class="card-text">Różnic jest sporo, zaczynając od alfabetu na akcencie kończąc. My skupimy się na tych podstawowych, oraz na elementach spornych w współczesnym języku ukraińskim.</p>
+                        <p class=""><small class="text-muted">Czytaj więcej</small></p>
+                    </a>
+                </div>
+            </div>
+
+
+
+            <div class="card text-center">
+                <div class="card-body">
+                    <a href="sites/alfabet-ukrainski.html">
+                        <h3 class="card-title">Poznaj ukraiński alfabet</h3>
+                        <p class="card-text">Alfabet ukraiński to odmiana cyrylicy, a dokładniej <mark>grażdanki</mark>, odmiany alfabetu cyrylicznego, używanego m.in. przez Rosjan od XVII wieku. Zobaczcie jakie dodatkowe litery posiada alfabet ukraiński, a które zostały pominięte w odróżnieniu do cyrylicy rosyjskiej.</p>
+                        <p class="card-text"><small class="text-muted">Czytaj więcej</small></p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <a href="sites/slowniczek-ukrainsko-polski.html#zwroty-jezykowe">
+                        <h3 class="card-title ">Podobne zwroty w językach polskim i ukraińskim</h3>
+                        <p class="card-text">Jak piszą współcześni badacze, język Polski ma bardzo dużo wspólnych cech z językiem ukraińskim. Dlatego w obu języka możemy spotkać wiele podobnych fraz językowych. Przygotowaliśmy kilka przykładowych.</p>
+                        <p class="card-text"><small class="text-muted">Czytaj więcej</small></p>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img" src="img/moskwa%20tlumaczenia%20rosyjskiego.jpg" alt="tłumaczenia rosyjskiego w Poznaniu, plac czerwony">
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <a href="sites/jakie-tlumaczenia-wykonujemy.html">
+                        <h3 class="card-title ">W jakim celu wykonuje się tłumaczenia językowe</h3>
+                        <p class="card-text">Przyczyny tłumaczeń są różne. Najczęściej powodem są wymagania urzędowe, aby dokumenty przełożone na dany język były przetłumaczone i poświadczone przez certyfikowanego tłumacza przysięgłego. Jednak powodów może być więcej.</p>
+                        <p class="card-text"><small class="text-muted">Czytaj więcej</small></p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card">
+
+                <div class="card-body">
+                    <a href="sites/przyczyny-emigracji-ukraincow-do-polski.html">
+                        <h3 class="card-title ">Przyczyny migracji Ukraińców do Polski</h3>
+                        <p class="card-text">Z roku na rok w Polsce przybywa naszych wschodnich sąsiadów. Jakie są przyczyny nagłego wzrostu przeprowadzek obywateli Ukrainy do Polski? Przyjrzymy się statystykom, historii migracji, oraz takim faktom, jak zniesienie ruchu wizowego dla obywateli Ukrainy w 2017 roku. Czy wpłyneły one na wzrost ilości przyjezdnych zza wschodniej granicy?</p>
+                        <p class="card-text"><small class="text-muted">Czytaj więcej</small></p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="img/kim-sa-osoby-z-ukrainy.jpg" alt="kim są osoby przyjeżdżające z Ukrainy do Poznania">
+                <div class="card-body">
+                    <a href="sites/przyczyny-emigracji-ukraincow-do-polski.html#kim-sa-ukraincy">
+                        <h3 class="card-title ">Kim są osoby przyjeżdżające do Polski z terenów Ukrainy</h3>
+                        <p class="card-text">Na co dzień wiemy, że są to osoby obywatelstwa ukraińskiego. Jednak jakim pochodzeniem dokładnie się legitymują? Jaką wyznają wiarę, jakie mają wykształcenie? Wreszcie jaki przediał wiekowy charakteryzuje tą grupę przybyszy z Ukrainy? Postaramy się odpowiedzieć na te pytania przy pomocy danych zamieszczonych przez polski Urząd do Spraw Cudzoziemców.</p>
+                        <p class="card-text"><small class="text-muted">Czytaj więcej</small></p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="img/slowniczek-polsko-ukrainski.jpg" alt="wyobrażenie słownika polsko - ukraińskiego i co można przy jego pomocy zobaczyć">
+                <div class="card-body">
+                    <a href="sites/slowniczek-ukrainsko-polski.html">
+                        <h3 class="card-title ">Słowniczek polsko - ukraiński</h3>
+                        <p class="card-text">Specjalnie dla Was przygotowaliśmy mini słowniczek słów i zwrotów przetłumaczonych na język Ukraiński. Ta rubryka ma być bardziej inspiracją do nauki tego języka, pokazując bliskość językową, a zarazem specyficzność ukraińskiego języka.</p>
+                        <p class="card-text"><small class="text-muted">Czytaj więcej</small></p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="img/jak-pojechac-na-ukraine.jpg" alt="Jak podróżować z Polski na Ukrainę">
+                <div class="card-body">
+                    <a href="sites/tanie-loty-na-i-z-ukrainy.html">
+                        <h3 class="card-title ">Tania podróż na Ukrainę, jak to zrobić?</h3>
+                        <p class="card-text">Analizujemy możliwości podróży na Ukrainę. Co okazuje się być najtańszym środkiem transportu zbiorowego? Samolot, pociąg, czy autobus? Na to pytanie znajdziecie odpowiedź w tym artykule.</p>
+                        <p class="card-text"><small class="text-muted">Czytaj więcej</small></p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="img/poznan-miasto-dla-ukraincow.jpg" alt="Poznań, miasto które może zostać zasiedlone przez obywateli Ukrainy">
+                <div class="card-body">
+                    <a href="sites/tanie-loty-na-i-z-ukrainy.html">
+
+                        <h3 class="card-title ">Czy Poznań jest dobrą destynacją dla obywateli Ukrainy?</h3>
+                        <p class="card-text">Mieszkaniec Ukrainy decydując się na przeprowadzkę do Polski musi zadecydować, w które miejsce się przeprowadzić. Czy Poznań na mapie Polski sytuuje się jako dobre miejsce docelowe? Sprawdźmy jakie są szanse Poznania na przyciągnięcie do siebie ukraińskich obywateli.</p>
+                        <p class="card-text"><small class="text-muted">Czytaj więcej</small></p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card bg-primary text-white text-center p-3">
+                <blockquote class="blockquote mb-0">
+                    <h3 class="">Dania kuchni ukraińskiej</h3>
+                    <p>Czego warto spróbować, czego unikać? By było smaczniej skupimy się na tym pierwszym.</p>
+                    <footer class="blockquote-footer">
+                        <small>
+                            <a class="text-white" href="sites/co-sprobowac-na-ukrainie.html">Czytaj więcej</a>
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+    <!-- navs end - blog topics -->
+    <!--    REFERENCE - CAROUSEL----------------------------------------------------------------------------------------------------------------------------------- -->
+    <div class="container reference">
+        <h2 class="display-4 py-5  text-center"><a name="reference">Referencje</a></h2>
+        <div class="card-group">
+            <div class="card">
+                <img class="card-img-top" src="img/referencje_tlumacza_przysieglego%20(1).jpg" alt="referencje tłumacza przysięgłego poznań">
+                <div class="card-body">
+                    <h5 class="card-title">W podziękowaniu za współpracę</h5>
+                    <p class="card-text">
+                        "Dziękuję za współpracę, przy tłumaczeniach z języka rosyjskiego na polski. Usługa którą wykonuje Pan Jurij Bojcheniuk jest w 100% profesjonalna. Odpowiedzialny kontakt z klientem i miła atmosfera, to dwie rzeczy, które jako pierwsze nasuwają się na myśl."
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted blockquote-footer">Tomasz Świątek z Poznania, klient firmy.</small>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="img/referencje_tlumacza_przysieglego%20(2).jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Referencje dla firmy Julmax Jurij Bojcheniuk</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni assumenda provident excepturi, voluptate a tempora, quos alias eaque aspernatur! Modi ad consectetur, dolore deleniti ex repudiandae inventore iste aperiam esse.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted blockquote-footer"></small>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="img/referencje_tlumacza_przysieglego%20(3).jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">List referencyjny</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, maxime cupiditate, possimus vero, laboriosam, incidunt sunt voluptatibus laudantium ducimus dolorem error consequuntur blanditiis ratione voluptas harum ab fugiat nisi. Deserunt.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted blockquote-footer"></small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--   CONTACT ------------------------------------------------------------------------------------------------------------------------------------ -->
+    <div class="container contact">
+      
+        <h2 class="display-4 py-5 text-center"><a name="contact">Dane kontaktowe</a></h2>
+         <div class="alert alert-light" role="alert">
+<p>W celu umównienia spotkania w siedzibie firmy w Poznaniu, serdecznie prosimy o wcześniejszy kontakt telefoniczny.</p> 
+</div>
+        <div class="row">
+            <div class="col">
+                <table class="table d-flex table-striped justify-content-center ">
+                    <tbody class="background-table table-bordered">
+                        <tr>
+                            <th scope="row">Nazwa firmy</th>
+                            <td>Julmax Jurij Bojcheniuk</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Adres</th>
+                            <td>ul. Konfederacka 4A lok.4, 60-281 Poznań</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Telefon</th>
+                            <td> (+48) 660 776 723<br>(+48) 606 301 401</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">E-mail</th>
+                            <td>jbojcheniuk@wp.pl</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">NIP</th>
+                            <td>898 181 76 20</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">REGON</th>
+                            <td>368901442</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Numer konta bankowego BZ WBK</th>
+                            <td>20 1090 1447 0000 0001 1865 1839</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--    google map-->
+            <div class="col">
+                <div class="map-responsive d-flex justify-content-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4868.994991245722!2d16.86955267033082!3d52.3976592126539!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4704454a2987c751%3A0xb18f74e73797f01c!2sJulmax+Jurij+Bojcheniuk%2C+t%C5%82umacz+przysi%C4%99g%C5%82y+j%C4%99zyka+ukrai%C5%84skiego!5e0!3m2!1spl!2spl!4v1536152537144" width="600" height="420" allowfullscreen></iframe>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    CONTACT END-->
+    <!--FOOTER -->
+    <footer class="jumbotron-fluid">
+        <div class="jumbotron jumbotron-fluid  text-white text-center mb-0 mt-5">
+            <div class="container" id="footer">
+                <p class=""><a href="sites/cookies.html">Polityka dot. ciasteczek "cookies"</a></p>
+                <p class=""><a href="sites/regulamin.html">Polityka Prywatności</a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery first, then Tether/popper, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--   own javascript file - random actions-->
+    <script src="main.js"></script>
+</body>
+
+</html>
